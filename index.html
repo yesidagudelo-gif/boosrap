@@ -35,7 +35,7 @@
     });
   }
   botonAgregar.addEventListener('click', () => {
-    inventario.push({nombre: "balon golty", stock: 8});
+    inventario.push({nombre: document.getElementById('nombre').value, stock: document.getElementById('numero').value});
     mostrar();
   });
   mostrar();
